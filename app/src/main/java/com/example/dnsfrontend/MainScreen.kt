@@ -50,7 +50,7 @@ fun MainScreen(viewModel: MainViewModel) {
             Text(text = "Enter information", style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold, fontSize = 24.sp))
             Spacer(modifier = Modifier.height(32.dp))
 
-            Text("Base URL (e.g. http://192.168.1.50:8080/)")
+            Text("Base URL (e.g. http://xxx.xxx.x.xx:xxxx/)")
             TextField(
                 value = baseUrl,
                 onValueChange = { baseUrl = it },
